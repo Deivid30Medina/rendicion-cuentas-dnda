@@ -42,7 +42,7 @@ const Navbar = () => {
       </a>
 
       {/* Mostrar IconDNDA2 solo cuando no estamos en la parte superior (hemos hecho scroll) */}
-      <a href="https://www.derechodeautor.gov.co/es" target='_blank' className={`cursor-pointer transition-opacity duration-300 ${isAtTop ? 'hidden' : 'flex items-center justify-center h-16 border-r-white pl-4'}`}>
+      <a href="https://www.derechodeautor.gov.co/es" target='_blank' className={`cursor-pointer transition-opacity duration-300 ${isAtTop ? 'hidden' : 'flex items-center justify-center h-16 border-r-white'}`}>
         <IconDNDA2 className='block max-h-14 w-auto' />
       </a>
 
@@ -52,10 +52,11 @@ const Navbar = () => {
       </div>
 
       {/* Menú principal que se muestra en pantallas grandes y pequeñas */}
-      <ul className={`absolute w-full bg-color-dnda flex flex-col items-center justify-center z-50 transition-all duration-300 top-16 left-0 gap-12 ${isMenuOpen ? 'block' : 'hidden'} xl:flex xl:flex-row xl:static xl:top-0 xl:bg-transparent xl:w-auto`}>
+      <ul className={`absolute w-full bg-color-dnda flex flex-col items-center justify-center z-50 transition-all duration-700 top-16 left-0 gap-12 ${isMenuOpen ? 'block' : 'hidden'} xl:flex xl:flex-row xl:static xl:top-0 xl:bg-transparent xl:w-auto`}>
         <li>
           <NavLink
             to='/'
+            onClick={() => setIsMenuOpen(false)}
             className={({ isActive }) =>
               isActive
                 ? 'relative block text-color-hover-navbar p-3 transition-all cursor-pointer after:content-[""] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[4px] after:bg-color-hover-navbar'
@@ -68,6 +69,7 @@ const Navbar = () => {
         <li>
           <NavLink
             to='/informes'
+            onClick={() => setIsMenuOpen(false)}
             className={({ isActive }) =>
               isActive
                 ? 'relative block text-color-hover-navbar p-3 transition-all cursor-pointer after:content-[""] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[4px] after:bg-color-hover-navbar'
@@ -77,13 +79,13 @@ const Navbar = () => {
             Informes
           </NavLink>
         </li>
-        <li className='relative text-white hover:text-color-hover-navbar p-3 transition-all cursor-pointer after:content-[""] after:absolute after:left-0 after:bottom-0 after:w-0 hover:after:w-full after:h-[4px] after:bg-color-hover-navbar after:transition-all after:duration-500'>
+        <li onClick={() => setIsMenuOpen(false)} className='relative text-white hover:text-color-hover-navbar p-3 transition-all cursor-pointer after:content-[""] after:absolute after:left-0 after:bottom-0 after:w-0 hover:after:w-full after:h-[4px] after:bg-color-hover-navbar after:transition-all after:duration-500'>
           <a className='no-underline' target='_blank' href="#">Inscripción</a>
         </li>
-        <li className='relative text-white hover:text-color-hover-navbar p-3 transition-all cursor-pointer after:content-[""] after:absolute after:left-0 after:bottom-0 after:w-0 hover:after:w-full after:h-[4px] after:bg-color-hover-navbar after:transition-all after:duration-500'>
+        <li onClick={() => setIsMenuOpen(false)} className='relative text-white hover:text-color-hover-navbar p-3 transition-all cursor-pointer after:content-[""] after:absolute after:left-0 after:bottom-0 after:w-0 hover:after:w-full after:h-[4px] after:bg-color-hover-navbar after:transition-all after:duration-500'>
           <a target='_blank' href="#">Reglamento</a>
         </li>
-        <li className='relative text-white hover:text-color-hover-navbar p-3 transition-all cursor-pointer after:content-[""] after:absolute after:left-0 after:bottom-0 after:w-0 hover:after:w-full after:h-[4px] after:bg-color-hover-navbar after:transition-all after:duration-500'>
+        <li onClick={() => setIsMenuOpen(false)} className='relative text-white hover:text-color-hover-navbar p-3 transition-all cursor-pointer after:content-[""] after:absolute after:left-0 after:bottom-0 after:w-0 hover:after:w-full after:h-[4px] after:bg-color-hover-navbar after:transition-all after:duration-500'>
           <a target='_blank' href="#">Ver audiencia</a>
         </li>
       </ul>
