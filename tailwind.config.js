@@ -11,6 +11,12 @@ export default {
         'color-institucional' : '#3366CC',
         'color-hover-navbar' : '#2dc8ea'
       },
+      borderWidth: {
+        'custom-2': '2px', // Define un grosor de borde personalizado
+      },
+      borderColor: {
+        'custom-black': '#a5a5a5', // Define el color del borde personalizado
+      }
     },
   },
   plugins: [],
