@@ -52,7 +52,9 @@ const Navbar = () => {
       </div>
 
       {/* Menú principal que se muestra en pantallas grandes y pequeñas */}
-      <ul className={`absolute w-full bg-color-dnda flex flex-col items-center justify-center z-50 transition-all duration-700 top-16 left-0 gap-12 ${isMenuOpen ? 'block' : 'hidden'} xl:flex xl:flex-row xl:static xl:top-0 xl:bg-transparent xl:w-auto`}>
+      <ul
+        className={`absolute w-full bg-color-dnda flex flex-col items-center justify-center z-50 top-16 left-0 transition-all duration-700 ease-in-out overflow-hidden gap-12 ${isMenuOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'} xl:flex xl:flex-row xl:static xl:top-0 xl:bg-transparent xl:w-auto xl:max-h-none xl:opacity-100`}
+      >
         <li>
           <NavLink
             to='/'
@@ -89,6 +91,7 @@ const Navbar = () => {
           <a target='_blank' href="#">Ver audiencia</a>
         </li>
       </ul>
+
     </nav>
   );
 };
