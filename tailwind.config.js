@@ -9,14 +9,18 @@ export default {
       colors: {
         'color-dnda': '#002552',
         'color-institucional' : '#3366CC',
-        'color-hover-navbar' : '#2dc8ea'
+        'color-hover-navbar' : '#2dc8ea',
+        'color-dnda-oscuro' : '#004884'
       },
       borderWidth: {
         'custom-2': '2px', // Define un grosor de borde personalizado
       },
       borderColor: {
         'custom-black': '#a5a5a5', // Define el color del borde personalizado
-      }
+      },
+      fontFamily: {
+        serif: ['Montserrat', 'Georgia', 'serif'],
+      },
     },
   },
   plugins: [],
