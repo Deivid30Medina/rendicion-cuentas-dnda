@@ -7,7 +7,6 @@ const Ucsti = () => {
       <div>
         UCSTI-Informe
       </div>
-      <Outlet />
     </>
   )
 }
