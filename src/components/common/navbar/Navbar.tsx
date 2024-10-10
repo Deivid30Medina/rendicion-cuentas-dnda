@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import IconMenuBurger from '../../../assets/icons/IconMenuBurger';
 import IconDNDA from '../../../assets/icons/IconDNDA';
 import NavItem from './NavItem'; // Importar NavItem
@@ -51,9 +51,9 @@ const Navbar = () => {
       <ul className={`absolute w-full bg-color-dnda flex flex-col items-center justify-center z-50 top-16 left-0 transition-all duration-700 ease-in-out overflow-hidden gap-12 ${isMenuOpen ? 'max-h-[550px] mt-3 opacity-100' : 'max-h-0 opacity-0'} xl:flex xl:flex-row xl:static xl:top-0 xl:bg-transparent xl:w-auto xl:max-h-none xl:opacity-100`}>
         <NavItem to='/' onClick={() => setIsMenuOpen(false)}>Inicio</NavItem>
         <NavItem to='/informes' onClick={() => setIsMenuOpen(false)}>Informes</NavItem>
-        <ExternalNavItem href="#" onClick={() => setIsMenuOpen(false)}>Inscripción</ExternalNavItem>
-        <ExternalNavItem href="#" onClick={() => setIsMenuOpen(false)}>Reglamento</ExternalNavItem>
-        <ExternalNavItem href="#" onClick={() => setIsMenuOpen(false)}>Ver audiencia</ExternalNavItem>
+        <ExternalNavItem href="#" >Inscripción</ExternalNavItem>
+        <ExternalNavItem href="#" >Reglamento</ExternalNavItem>
+        <ExternalNavItem href="#" >Ver audiencia</ExternalNavItem>
       </ul>
     </nav>
   );

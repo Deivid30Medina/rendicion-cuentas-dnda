@@ -1,6 +1,4 @@
 import { NavLink } from 'react-router-dom';
-import React from 'react';
-
 // Definición de la interfaz para las props del NavItem
 interface NavItemProps {
   to: string;

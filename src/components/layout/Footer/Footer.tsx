@@ -1,4 +1,3 @@
-import React from 'react'
 import IconDNDAColor from '../../../assets/icons/IconDNDAColor'
 import IconoWebDnda from '../../../assets/icons/redes/IconoWebDnda'
 import IconFacebook from '../../../assets/icons/redes/IconFacebook'

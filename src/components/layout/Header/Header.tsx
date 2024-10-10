@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from '../../common/navbar/Navbar'
 
 const Header = () => {
