@@ -34,14 +34,14 @@ const Navbar = () => {
   return (
     <nav
       className={`w-full bg-color-dnda flex items-center justify-between z-50 custom-max-h 
-        ${isAtTop ? 'relative h-40 flex-col pt-3 transition-all duration-1000' : 'fixed top-0 left-0 flex-row min-h-20 transition-all duration-1000 px-8'}`}
+        ${isAtTop ? 'relative h-40 flex-col pt-3 transition-all duration-1000' : 'fixed top-0 left-0 flex-row min-h-16 transition-all duration-1000 px-8'}`}
     >
       <a href="https://www.derechodeautor.gov.co/es" target='_blank' className={`flex items-center justify-center ${isAtTop ? 'block' : 'hidden'}`}>
         <IconDNDA className={`cursor-pointer transition-opacity duration-300 h-auto w-32 xl:w-48`} />
       </a>
 
-      <a href="https://www.derechodeautor.gov.co/es" target='_blank' className={`cursor-pointer transition-opacity duration-300 ${isAtTop ? 'hidden' : 'flex items-center justify-center h-16 border-r-white'}`}>
-        <IconMinInterior className='block max-h-14 w-auto' />
+      <a href="https://www.derechodeautor.gov.co/es" target='_blank' className={`cursor-pointer pr-2 border-r-2 border-r-white transition-opacity duration-300 h-16 ${isAtTop ? 'hidden' : 'flex items-center justify-center'}`}>
+        <IconMinInterior className='block max-h-9 w-aut' />
       </a>
 
       <div className='relative w-full xl:hidden flex items-center justify-end p-3 min-h-full' onClick={() => setIsMenuOpen(!isMenuOpen)}>
