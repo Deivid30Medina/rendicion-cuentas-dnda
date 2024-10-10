@@ -11,7 +11,14 @@ const AppRouter = () => {
                 <Routes>
                     <Route path='/' element={<Home />}></Route>
                     <Route path='/informes' element={<Reports />}></Route>
+                    <Route path='/informes/jurisdiccionales' element={<Ucsti />}></Route>
+                    <Route path='/informes/capacitacion' element={<Ucsti />}></Route>
+                    <Route path='/informes/administrativa' element={<Ucsti />}></Route>
+                    <Route path='/informes/registro' element={<Ucsti />}></Route>
+                    <Route path='/informes/juridica' element={<Ucsti />}></Route>
+                    <Route path='/informes/conciliacion-arbitraje' element={<Ucsti />}></Route>
                     <Route path='/informes/ucsti' element={<Ucsti />}></Route>
+                    <Route path='/informes/control-interno' element={<Ucsti />}></Route>
                     <Route path="*" element={<Home></Home>} />
                 </Routes>
             </MainLayout>
