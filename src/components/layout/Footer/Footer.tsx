@@ -55,11 +55,11 @@ const Footer = () => {
         </div>
         <div className='w-full bg-color-institucional min-h-28 max-h-28 flex items-center justify-start xl:px-80 px-5 gap-4'>
           <a className='inline-block h-12 w-12' href="inline-block h-full w-auto">
-            <img className='object-contain h-full w-auto' src="./icons/IconColombia.png" alt="Icono colombia" />
+            <img className='object-contain h-full w-auto' src="../icons/IconColombia.png" alt="Icono colombia" />
           </a>
           <span className='h-12 border-l-2 border-white'></span>
           <a className='inline-block h-12 w-32' href="inline-block h-full w-auto">
-            <img className='object-contain h-full w-auto' src="./icons/Iconpresidencia.png" alt="Icono presidencia" />
+            <img className='object-contain h-full w-auto' src="../icons/Iconpresidencia.png" alt="Icono presidencia" />
           </a>
         </div>
       </footer>
