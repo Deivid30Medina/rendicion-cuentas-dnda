@@ -24,7 +24,7 @@ const Reports = () => {
         </p>
         <div className="w-full pt-12 grid gap-6 place-items-stretch grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
           <Link className="max-w-60 min-w-60 min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/informes/jurisdiccionales">
-           <div className={`h-full flex items-center justify-center flex-col  hover:bg-white bg-color-icon-jurisdiccionales-degradado    border-2 hover:border-color-icon-jurisdiccionales rounded-lg duration-700 hover:scale-110`}>
+           <div className={`h-full flex items-center justify-center flex-col  hover:bg-white bg-color-icon-jurisdiccionales-degradado border-2 hover:border-color-icon-jurisdiccionales rounded-lg duration-700 hover:scale-110`}>
 
               <IconJurisdiccionales className="w-full max-h-32" />
 

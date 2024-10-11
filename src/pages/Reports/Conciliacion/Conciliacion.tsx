@@ -5,7 +5,7 @@ import IconInforme from "../../../assets/icons/dependencies/IconInforme"
 import IconVideo from "../../../assets/icons/dependencies/IconVideo"
 import IconPresentacion from "../../../assets/icons/dependencies/IconPresentacion"
 
-const Ucsti = () => {
+const Conciliacion = () => {
   return (
     <>
       <div className="w-full flex items-center justify-between flex-nowrap pt-12">
@@ -48,4 +48,4 @@ const Ucsti = () => {
   )
 }
 
-export default Ucsti
+export default Conciliacion
