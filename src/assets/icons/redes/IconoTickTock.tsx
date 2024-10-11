@@ -8,7 +8,7 @@ interface SvgIconProps {
 }
 
 
-const IconoTickTock: React.FC<SvgIconProps> = ({ width = '30', height = '30', className, color = '#000000' }) => {
+const IconoTickTock: React.FC<SvgIconProps> = ({ width = '30', height = '30', className }) => {
     return (
         <>
     <svg

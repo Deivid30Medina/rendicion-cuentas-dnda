@@ -1,4 +1,3 @@
-import ButtonCardReports from "../../components/specific/ButtonCardReports"
 import IconJurisdiccionales from "../../assets/icons/dependency/IconJurisdiccionales"
 import IconAsesoriaJuridica from "../../assets/icons/dependency/IconAsesoriaJuridica"
 import IconCapacitacion from "../../assets/icons/dependency/IconCapacitacion"
