@@ -19,7 +19,7 @@ const Home = () => {
             Facebook live @derechodeautor
           </p>
         </div>
-        <Img src="../Imgs/ImagenEventoHome.jpg" alt="Imgane Home rendición de cuentas" className="w-full xl:w-2/5 xl:m-0 mt-8"></Img>
+        <Img src="Imgs/ImagenEventoHome.jpg" alt="Imgane Home rendición de cuentas" className="w-full xl:w-2/5 xl:m-0 mt-8"></Img>
       </div>
 
     </>

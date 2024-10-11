@@ -40,7 +40,7 @@ const Capacitacion = () => {
         </a>
       </div>
       <div className="w-full flex items-center justify-center mt-20">
-        <Link to="/informes" >
+        <Link to="/Rendicion-Cuentas/2024/informes" >
           <Button label={"Volver"} className="bg-gray-300 hover:bg-gray-400 duration-700 hover:scale-110 rounded-lg w-24 h-10 text-2xl"></Button>
         </Link>
       </div>

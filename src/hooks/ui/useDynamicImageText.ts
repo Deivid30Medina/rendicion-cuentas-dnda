@@ -7,38 +7,38 @@ const useDynamicImageText = () => {
 
     useEffect(() => {
         switch (location.pathname) {
-            case '/':
+            case '/Rendicion-Cuentas/2024':
                 setText('Rendición de cuentas DNDA 2024');
                 break;
-            case '/informes':
+            case '/Rendicion-Cuentas/2024/informes':
                 setText('Informes 2024');
                 break;
-            case '/informes/jurisdiccionales':
+            case '/Rendicion-Cuentas/2024/informes/jurisdiccionales':
                 setText('Subdirección de Asuntos Jurisdiccionales');
                 break;
-            case '/informes/capacitacion':
+            case '/Rendicion-Cuentas/2024/informes/capacitacion':
                 setText('Subdirección Técnica de Capacitación, Investigación y Desarrollo');
                 break;
-            case '/informes/administrativa':
+            case '/Rendicion-Cuentas/2024/informes/administrativa':
                 setText('Subdirección Administrativa');
                 break;
-            case '/informes/registro':
+            case '/Rendicion-Cuentas/2024/informes/registro':
                 setText('Oficina de Registro');
                 break;
-            case '/informes/juridica':
+            case '/Rendicion-Cuentas/2024/informes/juridica':
                 setText('Oficina Asesora Jurídica');
                 break;
-            case '/informes/conciliacion-arbitraje':
+            case '/Rendicion-Cuentas/2024/informes/conciliacion-arbitraje':
                 setText('Centro de Conciliación y Arbitraje');
                 break;
-            case '/informes/ucsti':
+            case '/Rendicion-Cuentas/2024/informes/ucsti':
                 setText('Unidad de Comunicaciones, Servicio al Ciudadano y Tecnologías de la Información');
                 break;
-            case '/informes/control-interno':
+            case '/Rendicion-Cuentas/2024/informes/control-interno':
                 setText('Oficina de Control Interno');
                 break;
             default:
-                setText('Rendición de cuentas'); // Texto por defecto
+                setText('Rendición de cuentas 2024'); // Texto por defecto
         }
     }, [location.pathname]);
 

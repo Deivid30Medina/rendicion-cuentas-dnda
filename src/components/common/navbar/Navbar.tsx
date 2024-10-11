@@ -49,8 +49,8 @@ const Navbar = () => {
       </div>
 
       <ul className={`absolute w-full bg-color-dnda flex flex-col items-center justify-center z-50 top-16 left-0 transition-all duration-700 ease-in-out overflow-hidden gap-12 ${isMenuOpen ? (isAtTop ? 'max-h-[550px] mt-10 opacity-100' : 'mt-0 opacity-100') : 'max-h-0 opacity-0'} xl:flex xl:flex-row xl:static xl:top-0 xl:bg-transparent xl:w-auto xl:max-h-none xl:opacity-100`}>
-        <NavItem to='/' onClick={() => setIsMenuOpen(false)}>Inicio</NavItem>
-        <NavItem to='/informes' onClick={() => setIsMenuOpen(false)}>Informes</NavItem>
+        <NavItem to='/Rendicion-Cuentas/2024/' onClick={() => setIsMenuOpen(false)}>Inicio</NavItem>
+        <NavItem to='/Rendicion-Cuentas/2024/informes' onClick={() => setIsMenuOpen(false)}>Informes</NavItem>
         <ExternalNavItem href="#" >Inscripción</ExternalNavItem>
         <ExternalNavItem href="#" >Reglamento</ExternalNavItem>
         <ExternalNavItem href="#" >Ver audiencia</ExternalNavItem>

@@ -16,16 +16,16 @@ const AppRouter = () => {
         <>
             <MainLayout>
                 <Routes>
-                    <Route path='/' element={<Home />}></Route>
-                    <Route path='/informes' element={<Reports />}></Route>
-                    <Route path='/informes/jurisdiccionales' element={<Jurisdiccionales />}></Route>
-                    <Route path='/informes/capacitacion' element={<Capacitacion />}></Route>
-                    <Route path='/informes/administrativa' element={<SubdireccionAdministrativa />}></Route>
-                    <Route path='/informes/registro' element={<Registro />}></Route>
-                    <Route path='/informes/juridica' element={<Juridica />}></Route>
-                    <Route path='/informes/conciliacion-arbitraje' element={<Conciliacion />}></Route>
-                    <Route path='/informes/ucsti' element={<Ucsti />}></Route>
-                    <Route path='/informes/control-interno' element={<ControlInterno />}></Route>
+                    <Route path='/Rendicion-Cuentas/2024/' element={<Home />}></Route>
+                    <Route path='/Rendicion-Cuentas/2024/informes' element={<Reports />}></Route>
+                    <Route path='/Rendicion-Cuentas/2024/informes/jurisdiccionales' element={<Jurisdiccionales />}></Route>
+                    <Route path='/Rendicion-Cuentas/2024/informes/capacitacion' element={<Capacitacion />}></Route>
+                    <Route path='/Rendicion-Cuentas/2024/informes/administrativa' element={<SubdireccionAdministrativa />}></Route>
+                    <Route path='/Rendicion-Cuentas/2024/informes/registro' element={<Registro />}></Route>
+                    <Route path='/Rendicion-Cuentas/2024/informes/juridica' element={<Juridica />}></Route>
+                    <Route path='/Rendicion-Cuentas/2024/informes/conciliacion-arbitraje' element={<Conciliacion />}></Route>
+                    <Route path='/Rendicion-Cuentas/2024/informes/ucsti' element={<Ucsti />}></Route>
+                    <Route path='/Rendicion-Cuentas/2024/informes/control-interno' element={<ControlInterno />}></Route>
                     <Route path="*" element={<Home></Home>} />
                 </Routes>
             </MainLayout>
