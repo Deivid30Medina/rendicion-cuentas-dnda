@@ -21,8 +21,8 @@ const Reports = () => {
           Puede hacer clic sobre cada una y consultar las cifras sobre los mayores logros, las dificultades que han debido sortear y los retos que tienen
           por cumplir.
         </p>
-        <div className="w-full pt-12 grid gap-6 place-items-stretch grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
-          <Link className="max-w-60 min-w-60 min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/jurisdiccionales">
+        <div className="w-full pt-12 grid gap-12 place-items-stretch grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4">
+          <Link className="w-full min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/jurisdiccionales">
            <div className={`h-full flex items-center justify-center flex-col  hover:bg-white bg-color-icon-jurisdiccionales-degradado border-2 hover:border-color-icon-jurisdiccionales rounded-lg duration-700 hover:scale-110`}>
 
               <IconJurisdiccionales className="w-full max-h-32" />
@@ -30,43 +30,43 @@ const Reports = () => {
               <p className="text-center text-sm">Jurisdiccionales</p>
             </div>
           </Link>
-          <Link className="max-w-60 min-w-60 min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/capacitacion">
+          <Link className="w-full min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/capacitacion">
            <div className={`h-full flex items-center justify-center flex-col  hover:bg-white bg-color-icon-capacitacion-degradado border-2 hover:border-color-icon-capacitacion rounded-lg duration-700 hover:scale-110`}>
               <IconCapacitacion className="w-full max-h-32" />
               <p className="text-center text-sm">Subdirección Técnica de Capacitación, Investigación y Desarrollo</p>
             </div>
           </Link>
-          <Link className="max-w-60 min-w-60 min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/administrativa">
+          <Link className="w-full min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/administrativa">
            <div className={`h-full flex items-center justify-center flex-col  hover:bg-white bg-color-icon-administrativa-degradado border-2 hover:border-color-icon-administrativa rounded-lg duration-700 hover:scale-110`}>
               <IconAdministrativa className="w-full max-h-32" />
               <p className="text-center text-sm">Subdirección Administrativa</p>
             </div>
           </Link>
-          <Link className="max-w-60 min-w-60 min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/registro">
+          <Link className="w-full min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/registro">
            <div className={`h-full flex items-center justify-center flex-col  hover:bg-white bg-color-icon-registro-degradado  border-2 hover:border-color-icon-registro rounded-lg duration-700 hover:scale-110`}>
               <IconRegistro className="w-full max-h-32" />
               <p className="text-center text-sm">Oficina de Registro</p>
             </div>
           </Link>
-          <Link className="max-w-60 min-w-60 min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/juridica">
+          <Link className="w-full min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/juridica">
            <div className={`h-full flex items-center justify-center flex-col  hover:bg-white bg-color-icon-juridica-degradado  border-2 hover:border-color-icon-juridica rounded-lg duration-700 hover:scale-110`}>
               <IconAsesoriaJuridica className="w-full max-h-32" />
               <p className="text-center text-sm">Oficina Asesora Jurídica</p>
             </div>
           </Link>
-          <Link className="max-w-60 min-w-60 min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/conciliacion-arbitraje">
+          <Link className="w-full min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/conciliacion-arbitraje">
            <div className={`h-full flex items-center justify-center flex-col  hover:bg-white bg-color-icon-conciliacion-degradado  border-2 hover:border-color-icon-conciliacion rounded-lg duration-700 hover:scale-110`}>
               <IconConciliacion className="w-full max-h-32" />
               <p className="text-center text-sm">Centro de Conciliación y Arbitraje</p>
             </div>
           </Link>
-          <Link className="max-w-60 min-w-60 min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/ucsti">
+          <Link className="w-full min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/ucsti">
             <div className={`h-full flex items-center justify-center flex-col hover:bg-white bg-color-icon-ucsti-degradado  border-2 hover:border-color-icon-ucsti rounded-lg duration-700 hover:scale-110`}>
               <IconComunicaciones className="w-full max-h-32" />
               <p className="text-center text-sm">Unidad de Comunicaciones, Servicio al Ciudadano y Tecnologías de la Información</p>
             </div>
           </Link>
-          <Link className="max-w-60 min-w-60 min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/control-interno">
+          <Link className="w-full min-h-60 mx-auto sm:mx-0 md:mx-0 xl:mx-0" to="/Rendicion-Cuentas/2024/informes/control-interno">
            <div className={`h-full flex items-center justify-center flex-col  hover:bg-white bg-color-icon-controlInterno-degradado  border-2 hover:border-color-icon-controlInterno rounded-lg duration-700 hover:scale-110`}>
               <IconControlInterno className="w-full max-h-32" />
               <p className="text-center text-sm">Oficina de Control Interno</p>

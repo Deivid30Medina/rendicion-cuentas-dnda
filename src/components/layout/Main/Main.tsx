@@ -6,11 +6,11 @@ type MainProps = {
 };
 
 const Main = ({ children }: MainProps) => {
-    const text = useDynamicImageText();
+    const { text, image } = useDynamicImageText();
 
     return (
-        <main className='w-screen h-auto'>
-            <ImagenWithText text={text} />
+        <main className='w-screen h-auto'> 
+            <ImagenWithText text={text} img={image} />
             <div className="w-screen px-5 xl:px-80 h-auto">
                 {children} {/* Aquí se renderiza el contenido dinámico */}
             </div>

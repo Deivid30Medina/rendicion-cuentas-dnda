@@ -3,46 +3,82 @@ import { useLocation } from 'react-router-dom';
 
 const useDynamicImageText = () => {
     const location = useLocation();
-    const [text, setText] = useState('');
+    const [state, setState] = useState({
+        text: '',
+        image: ''
+    });
 
     useEffect(() => {
         switch (location.pathname) {
             case '/Rendicion-Cuentas/2024':
-                setText('Rendición de cuentas DNDA 2024');
+                setState({
+                    text: 'Rendición de cuentas DNDA 2024',
+                    image: 'Imgs/BanerHome.jpg'
+                });
                 break;
             case '/Rendicion-Cuentas/2024/informes':
-                setText('Informes 2024');
+                setState({
+                    text: 'Informes 2024',
+                    image: 'Imgs/BanerInformes.jpg'
+                });
                 break;
             case '/Rendicion-Cuentas/2024/informes/jurisdiccionales':
-                setText('Subdirección de Asuntos Jurisdiccionales');
+                setState({
+                    text: 'Subdirección de Asuntos Jurisdiccionales',
+                    image: 'Imgs/BanerJurisdiccionales.jpg'
+                });
                 break;
             case '/Rendicion-Cuentas/2024/informes/capacitacion':
-                setText('Subdirección Técnica de Capacitación, Investigación y Desarrollo');
+                setState({
+                    text: 'Subdirección Técnica de Capacitación, Investigación y Desarrollo',
+                    image: 'Imgs/BannerGlobal.jpg'
+                });
                 break;
             case '/Rendicion-Cuentas/2024/informes/administrativa':
-                setText('Subdirección Administrativa');
+                setState({
+                    text: 'Subdirección Administrativa',
+                    image: 'Imgs/BannerGlobal.jpg'
+                });
                 break;
             case '/Rendicion-Cuentas/2024/informes/registro':
-                setText('Oficina de Registro');
+                setState({
+                    text: 'Oficina de Registro',
+                    image: 'Imgs/BannerGlobal.jpg'
+                });
                 break;
             case '/Rendicion-Cuentas/2024/informes/juridica':
-                setText('Oficina Asesora Jurídica');
+                setState({
+                    text: 'Oficina Asesora Jurídica',
+                    image: 'Imgs/BannerGlobal.jpg'
+                });
                 break;
             case '/Rendicion-Cuentas/2024/informes/conciliacion-arbitraje':
-                setText('Centro de Conciliación y Arbitraje');
+                setState({
+                    text: 'Centro de Conciliación y Arbitraje',
+                    image: 'Imgs/BannerGlobal.jpg'
+                });
                 break;
             case '/Rendicion-Cuentas/2024/informes/ucsti':
-                setText('Unidad de Comunicaciones, Servicio al Ciudadano y Tecnologías de la Información');
+                setState({
+                    text: 'Unidad de Comunicaciones, Servicio al Ciudadano y Tecnologías de la Información',
+                    image: 'Imgs/BannerGlobal.jpg'
+                });
                 break;
             case '/Rendicion-Cuentas/2024/informes/control-interno':
-                setText('Oficina de Control Interno');
+                setState({
+                    text: 'Oficina de Control Interno',
+                    image: 'Imgs/BannerGlobal.jpg'
+                });
                 break;
             default:
-                setText('Rendición de cuentas 2024'); // Texto por defecto
+                setState({
+                    text: 'Rendición de cuentas DNDA 2024',
+                    image: 'Imgs/BanerHome.jpg'
+                });
         }
     }, [location.pathname]);
 
-    return text;
+    return state;
 };
 
 export default useDynamicImageText;

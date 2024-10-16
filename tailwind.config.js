@@ -7,6 +7,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        'color-dnda-card' : 'rgb(242 244 245)',
         'color-dnda': '#002552',
         'color-institucional' : '#3366CC',
         'color-hover-navbar' : '#2dc8ea',

@@ -1,25 +1,25 @@
 import { Link } from "react-router-dom"
-import IconLupa from "../../../assets/icons/IconLupa"
 import Button from "../../../components/common/Buttons/Button"
 import IconInforme from "../../../assets/icons/dependencies/IconInforme"
 import IconVideo from "../../../assets/icons/dependencies/IconVideo"
 import IconPresentacion from "../../../assets/icons/dependencies/IconPresentacion"
+import IconJurisdiccionales from "../../../assets/icons/dependency/IconJurisdiccionales"
 
 const Jurisdiccionales = () => {
   return (
     <>
-      <div className="w-full flex items-center justify-between flex-nowrap pt-12">
-        <IconLupa className="min-h-20 min-w-28" />
+      <div className="w-full flex items-start justify-between flex-nowrap pt-12 gap-4">
+        <IconJurisdiccionales className="h-28 min-w-28 border-2 border-color-dnda rounded-lg" colorSVG="#004884" />
         <div className="flex flex-col items-start justify-center">
-          <h1 className="text-color-dnda text-2xl font-semibold">Unidad de Comunicaciones, Servicio al Ciudadano y Tecnologías de la Información</h1>
+          <h1 className="text-color-dnda text-2xl font-semibold">Subdirección de Asuntos Jurisdiccionales</h1>
           <p>
-            Unidad de Comunicaciones, Servicio al Ciudadano y Tecnologías de la Información: Su objetivo es liderar y gestionar las comunicaciones de la Dirección Nacional de Derechos de Autor, generando condiciones que favorezcan la interacción con los ciudadanos; asimismo, fortalecer la imagen de la Entidad e informar sobre las funciones, trámites y servicios a su cargo, a través de los diferentes medios de comunicación, eventos académicos y feriales, con el propósito de contribuir en la construcción de una cultura de respeto a los Derecho de Autor.
+            Su objetivo es ejercer las funciones jurisdiccionales asignadas a la Dirección Nacional de Derecho de Autor por el artículo 24 del Código General del Proceso en los procesos relacionados con los derechos de autor y conexos. Así como dirimir conflictos civiles relacionados con el derecho de autor y los derechos conexos. Atender a los interesados en interponer una acción judicial ante la Dirección Nacional de Derecho de Autor.
           </p>
         </div>
       </div>
       <div className="w-full pt-16 grid place-items-start justify-items-stretch gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
         <a className="sm:mx-0 md:mx-0 xl:mx-0" target="_blank" href="#">
-          <div className={`h-auto flex items-center justify-start flex-nowrap hover:bg-white bg-color-icon-jurisdiccionales-degradado border-2 hover:border-color-icon-jurisdiccionales rounded-lg duration-700 hover:scale-110`}>
+          <div className={`h-auto flex items-center justify-start flex-nowrap hover:bg-white bg-color-dnda-card border-2 hover:border-color-dnda rounded-lg duration-700 hover:scale-105`}>
 
             <IconInforme className="w-auto max-h-20" />
 
@@ -27,13 +27,13 @@ const Jurisdiccionales = () => {
           </div>
         </a>
         <a className="sm:mx-0 md:mx-0 xl:mx-0" target="_blank" href="#">
-          <div className={`h-auto flex items-center justify-start flex-nowrap  hover:bg-white bg-color-icon-capacitacion-degradado border-2 hover:border-color-icon-capacitacion rounded-lg duration-700 hover:scale-110`}>
+          <div className={`h-auto flex items-center justify-start flex-nowrap  hover:bg-white bg-color-dnda-card border-2 hover:border-color-dnda rounded-lg duration-700 hover:scale-105`}>
             <IconVideo className="w-auto max-h-20" />
             <p className="text-center text-xl text-color-dnda">Vídeo</p>
           </div>
         </a>
         <a className="sm:mx-0 md:mx-0 xl:mx-0" target="_blank" href="#">
-          <div className={`h-auto flex items-center justify-start flex-nowrap  hover:bg-white bg-color-icon-capacitacion-degradado border-2 hover:border-color-icon-capacitacion rounded-lg duration-700 hover:scale-110`}>
+          <div className={`h-auto flex items-center justify-start flex-nowrap  hover:bg-white bg-color-dnda-card border-2 hover:border-color-dnda rounded-lg duration-700 hover:scale-105`}>
             <IconPresentacion className="w-auto max-h-20" />
             <p className="text-center text-xl text-color-dnda">Presentación</p>
           </div>
