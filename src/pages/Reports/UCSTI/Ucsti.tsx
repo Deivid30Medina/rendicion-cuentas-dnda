@@ -31,7 +31,7 @@ const Ucsti = () => {
         </div>
       </div>
       <div className="w-full pt-16 grid place-items-start justify-items-stretch gap-8 grid-cols-1 sm:grid-cols-2 xl:grid-cols-3">
-        <a className="sm:mx-0 md:mx-0 xl:mx-0" target="_blank" href="#">
+        <a className="sm:mx-0 md:mx-0 xl:mx-0" target="_blank" href="reports/reporte-ucsti.pdf">
           <div
             className={`h-auto flex items-center justify-start flex-nowrap hover:bg-white bg-color-dnda-card border-2 hover:border-color-dnda rounded-lg duration-700 hover:scale-105`}
           >
@@ -48,7 +48,7 @@ const Ucsti = () => {
             <p className="text-center text-xl text-color-dnda">Video</p>
           </div>
         </a>
-        <a className="sm:mx-0 md:mx-0 xl:mx-0" target="_blank" href="#">
+        <a className="sm:mx-0 md:mx-0 xl:mx-0" target="_blank" href="presentation/Presentacion-ucsti.pptx">
           <div
             className={`h-auto flex items-center justify-start flex-nowrap  hover:bg-white bg-color-dnda-card border-2 hover:border-color-dnda rounded-lg duration-700 hover:scale-105`}
           >
