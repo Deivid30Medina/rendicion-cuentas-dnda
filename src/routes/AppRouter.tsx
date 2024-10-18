@@ -10,6 +10,7 @@ import Registro from '../pages/Reports/Registro/Registro'
 import Juridica from '../pages/Reports/Juridica/Juridica'
 import Conciliacion from '../pages/Reports/Conciliacion/Conciliacion'
 import ControlInterno from '../pages/Reports/ControlInterno/ControlInterno'
+import DireccionGeneral from '../pages/Reports/DireccionGeneral/DireccionGeneral'
 
 const AppRouter = () => {
     return (
@@ -18,6 +19,7 @@ const AppRouter = () => {
                 <Routes>
                     <Route path='/Rendicion-Cuentas/2024/' element={<Home />}></Route>
                     <Route path='/Rendicion-Cuentas/2024/informes' element={<Reports />}></Route>
+                    <Route path='/Rendicion-Cuentas/2024/informes/direccion-general' element={<DireccionGeneral />}></Route>
                     <Route path='/Rendicion-Cuentas/2024/informes/jurisdiccionales' element={<Jurisdiccionales />}></Route>
                     <Route path='/Rendicion-Cuentas/2024/informes/capacitacion' element={<Capacitacion />}></Route>
                     <Route path='/Rendicion-Cuentas/2024/informes/administrativa' element={<SubdireccionAdministrativa />}></Route>

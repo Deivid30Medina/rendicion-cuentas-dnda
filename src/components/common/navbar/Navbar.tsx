@@ -40,7 +40,7 @@ const Navbar = () => {
         <IconDNDA className={`cursor-pointer transition-opacity duration-300 h-auto w-32 xl:w-48`} />
       </a>
 
-      <a href="https://www.derechodeautor.gov.co/es" target='_blank' className={`cursor-pointer pr-2 border-r-2 border-r-white transition-opacity duration-300 h-16 ${isAtTop ? 'hidden' : 'flex items-center justify-center'}`}>
+      <a href="https://www.derechodeautor.gov.co/es" target='_blank' className={`cursor-pointer pr-3 border-r-2 border-r-white transition-opacity duration-300 h-16 ${isAtTop ? 'hidden' : 'flex items-center justify-center'}`}>
         <IconMinInterior className='block max-h-9 w-aut' />
       </a>
 

@@ -3,30 +3,24 @@ import Button from "../../../components/common/Buttons/Button";
 import IconInforme from "../../../assets/icons/dependencies/IconInforme";
 import IconVideo from "../../../assets/icons/dependencies/IconVideo";
 import IconPresentacion from "../../../assets/icons/dependencies/IconPresentacion";
-import IconComunicaciones from "../../../assets/icons/dependency/IconComunicaciones";
+import IconDireccionG from "../../../assets/icons/dependency/IconDireccionG";
 
-const Ucsti = () => {
+const DireccionGeneral = () => {
   return (
     <>
       <div className="w-full flex items-start justify-between flex-nowrap pt-12 gap-4">
-        <IconComunicaciones
-          className="h-32 min-w-28 border-2 border-color-dnda rounded-lg"
+        <IconDireccionG
+          className="h-20 min-w-28 max-w-32 border-2 border-color-dnda rounded-lg"
           colorSVG="#004884"
         />
         <div className="flex flex-col items-start justify-center">
           <h1 className="text-color-dnda text-2xl font-semibold">
-            Unidad de Comunicaciones, Servicio al Ciudadano y Tecnologías de la
-            Información
+            Dirección General
           </h1>
           <p>
-            Su objetivo es liderar y gestionar las comunicaciones de la
-            Dirección Nacional de Derechos de Autor, generando condiciones que
-            favorezcan la interacción con los ciudadanos; asimismo, fortalecer
-            la imagen de la Entidad e informar sobre las funciones, trámites y
-            servicios a su cargo, a través de los diferentes medios de
-            comunicación, eventos académicos y feriales, con el propósito de
-            contribuir en la construcción de una cultura de respeto a los
-            Derecho de Autor.
+            Encargada de formular, adoptar, dirigir, coordinar y ejecutar las
+            políticas en materia de Derecho de Autor y Derechos Conexos, de
+            acuerdo con los planes y lineamientos del Gobierno Nacional.
           </p>
         </div>
       </div>
@@ -69,4 +63,4 @@ const Ucsti = () => {
   );
 };
 
-export default Ucsti;
+export default DireccionGeneral;
