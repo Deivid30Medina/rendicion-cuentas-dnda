@@ -6,7 +6,7 @@ const Home = () => {
       <div className="w-full flex items-start justify-between flex-wrap pt-12">
         <div className="flex flex-col flex-nowrap w-full xl:w-[55%]">
           <h3 className="text-color-dnda text-3xl font-normal">Audiencia Pública de Rendición de Cuentas 2024</h3>
-          <p className="text-color-dnda text-xl">5 de diciembre</p>
+          <p className="text-color-dnda text-xl">11 de diciembre</p>
           <p className="text-lg pt-12">
             Bienvenido (a) al micrositio de la Audiencia Pública de Rendición de
             Cuentas de la Dirección Nacional de Derecho de Autor [DNDA],
