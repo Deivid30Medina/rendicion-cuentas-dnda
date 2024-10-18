@@ -13,8 +13,8 @@ const Home = () => {
             correspondiente al periodo entre el 1° de enero y al 30 de septiembre
             de 2024.
             <br /><br />
-            Esta Audiencia Pública de Rendición de Cuentas, se realizará el jueves
-            5 diciembre de 2024 de 9:00 a.m. a 12:00 p.m. en modalidad virtual, a
+            Esta Audiencia Pública de Rendición de Cuentas, se realizará el miercoles
+            11 diciembre de 2024 de 9:00 a.m. a 12:00 p.m. en modalidad virtual, a
             través de nuestro canal de YouTube @derechodeautorcol y de
             Facebook live @derechodeautor
           </p>
